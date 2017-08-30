@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script language="javascript" type="text/javascript" src="classes/board.js"></script>
+  <script language="javascript" type="text/javascript" src="classes/arrow.js"></script>
+  <script language="javascript" type="text/javascript" src="classes/computer.js"></script>
+  <style>
+      body {
+        /*background: #757575;*/
+        /*background-image: url(background.jpg);*/
+        background: url('background.jpg') no-repeat center center fixed;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        font-family: 'Berkshire Swash', cursive;
+      }
+
+      #sketch-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #defaultCanvas0 {
+        margin:0 ; border:5px solid #555;
+      }
+
+      h1 {
+        color: rgb(61,56,209);
+      }
+
+      h4 {
+        color: #0277bd;
+      }
+
+      h3 {
+        color: #00b0ff;
+        font-family: sans-serif;
+      }
+
+      .heading {
+        background-color: rgba(173, 226, 226, 0.75);
+        padding: 3px;
+        margin-bottom: 5px;
+      }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+</head>
+<body>
+   <div class="heading">
+     <h1>Connect 4 Game</h1>
+     <h4>By: Youssef Ali</h4>
+     <h3 style="color:darkblue">Play against the computer!</h3>
+   </div>
+   <div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+   </div>
+</body>
+</html>
